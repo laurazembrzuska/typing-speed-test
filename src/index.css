@@ -1,0 +1,177 @@
+body {
+  background-color: white;
+  color: black;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.stat-cell {
+  width: 8%;
+  min-width: 100px;
+  border: 2px solid #3b388c;
+  background-color: #3b388c;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.stat-cell-desc {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.custom-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* source css timer: */
+/* https://medium.com/@volochkov/how-to-create-countdown-timer-on-pure-css-2c0460391a32 */
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.timer {
+  width: 7vmin;
+  height: 7vmin;
+  border: 1.5vh solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(white, white) content-box no-repeat,
+    conic-gradient(#3b388c var(--percent, 44%), 0, #f2f2f2) border-box;
+  position: relative;
+}
+
+.percent-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5vmin;
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.container {
+  padding: 5px;
+  height: 40px;
+  width: 80%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.button {
+  border-radius: 10px !important;
+  font-size: 20px !important;
+  width: 150px !important;
+  margin-top: 20px !important;
+  position: absolute;
+  background-color: #3b388c !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.output {
+  top: 0;
+  left: 0;
+  padding: 5px;
+  min-height: 40px;
+  width: 80%;
+  overflow: auto;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  background-color: white;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.keyboard-input {
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  padding: 5px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+  min-height: 40px;
+  background-color: white;
+  font-style: italic;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.header {
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: left;
+}
+
+.paper {
+  border-radius: 10px;
+  background-color: #f2f2f2 !important;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.formControl {
+  width: 8% !important;
+  min-width: 100px !important;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  background-color: white !important;
+  border: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-radius: 30px !important;
+  border: none !important;
+}
+
+.select {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  border-radius: 30px !important;
+  border: none !important;
+}
+
+.menuItem {
+  font-size: inherit;
+  border-radius: 30px;
+  border: none;
+}
