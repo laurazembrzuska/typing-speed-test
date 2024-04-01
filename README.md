@@ -5,7 +5,6 @@
 <img src="https://github.com/laurazembrzuska/typing-speed-test/assets/62136542/8b8c4e48-018f-4fd8-8672-098b1d606260" alt="image" width="60%">
 <img src="https://github.com/laurazembrzuska/typing-speed-test/assets/62136542/3903ca51-fb82-481a-83e5-823c9361acef" alt="image" width="60%">
 
-## How to start?
 ## How to Run the Application
 
 To run this application locally, follow these steps:
